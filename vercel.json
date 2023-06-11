@@ -16,6 +16,10 @@
       },
       {
         "src": "/products/(.*)",
+        "dest": "index.js"
+      },
+      {
+        "src": "/",
         "dest": "build/index.html"
       },
       {
